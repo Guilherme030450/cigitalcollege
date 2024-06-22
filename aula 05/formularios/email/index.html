@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+</head>
+
+<body>
+    <h1>Formulário de contato via email</h1>
+    <hr>
+
+    <form method="post" action="https://api-send-email-m9xz.onrender.com/gui.jansen69@gmail.com">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="insira seu nome...">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemple@gmail.com">
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Assunto</legend>
+
+                <input type="radio" name="subject" id="assunto1" value="Assunto 1">
+                <label for="assunto1">Assunto 1</label>
+       
+                <input type="radio" name="subject" id="assunto2" value="Assunto 2">
+                <label for="assunto2">Assunto 2</label>
+       
+                <input type="radio" name="subject" id="assunto3" value="Assunto 3">
+                <label for="assunto3">Assunto 3</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="message">Mensagem</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="insira aqui o texto da sua mensagem..."></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="reset"> Apagar tudo</button>
+            <button>Enviar Mensagem</button>
+        </div>
+    </form>
+</body>
+
+</html>
