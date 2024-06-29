@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+}
+
+main {
+    background-color: darkmagenta;
+    padding: 30px;
+    height: 70%;
+}
+
+.box-container {
+    position: relative;
+    height: 50%;
+}
+
+.darkslate {
+    background-color: darkslategray;
+}
+
+.darkgray {
+    background-color: darkgray;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 2;
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 120px;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0);
+    position: absolute;
+    z-index: 4;
+    top: 120px;
+    left: 120px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.brown {
+    background-color: rgb(32, 13, 13);
+}
+
+.orange {
+    background-color: rgb(255, 170, 0);
+}
