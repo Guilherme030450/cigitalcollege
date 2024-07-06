@@ -1,0 +1,45 @@
+div:hover {
+    background-color: aqua;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+button:active {
+    background-color: darkgreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+input:disabled {
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 0 12px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: darkgrey;
+}
